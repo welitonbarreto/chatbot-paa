@@ -1,0 +1,63 @@
+.principal {
+    padding: 1em;
+    height: 80vh;
+}
+
+.message-box {
+    background-color: #F0F2F4;
+    border-radius: 5px;
+    padding: 1em;
+}
+.message-box__content {
+    background-color: #F5F8FB;
+    font-size: 1.5em;
+    height: 85%!important;
+    margin: 0 auto 0 auto;
+    padding: 1em;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.message-box__footer {
+    background-color: #F0F1F3;
+    height: 15%!important;
+    padding: 0.5em 0 0.5em 0;
+}
+
+
+.message-box__message {
+    align-items: center;
+    display: flex;
+    flex-direction: reverse;
+    gap: 1em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.message-box__message--user {
+    flex-direction: row-reverse;
+}
+
+.message-box__message--user .message-text {
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 15px;
+    padding: 0.5em;
+}
+
+.message-box__message--robot .message-text {
+    background-color: #2965E6;
+    color: white;
+    border-radius: 15px;
+    padding: 0.5em;
+}
+
+.message-image {
+    width: 5%;
+}
+
+.message-box__input {
+    margin-right: 1em;
+    width: 90%!important;
+}
+
