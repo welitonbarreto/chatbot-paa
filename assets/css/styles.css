@@ -57,10 +57,18 @@
 }
 
 .message-box__input {
+    font-size: 1em;
     margin-right: 1em;
     width: 95%!important;
 }
 
-.mess
+
+.message-box__send {
+    width: 3em;
+}
+
+.message-box__send i{
+    height: 100%;
+}
 
 
